@@ -1,6 +1,6 @@
 <?php
 $host_name = 'localhost';
-$database = 'newswebsite_db';
+$database = 'newsweb_db';
 $username = 'root';
 $password = '';
 
@@ -11,6 +11,5 @@ header("Access-Control-Allow-Headers:*");
 if ($mysqli->connect_error) {
     die('<p>Failed to connect to MySQL: ' . $mysqli->connect_error . '</p>');
 }
-
 
 ?>
